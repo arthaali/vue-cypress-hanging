@@ -21,3 +21,6 @@ there should be more than one tests to make cypress hangs. if we run one single 
 
 ## Issue Report:
 The issue already reported to cypress here: https://github.com/cypress-io/cypress/issues/29983
+
+The test will look like this:
+![Frozen failing test](./src/assets/issue.png)

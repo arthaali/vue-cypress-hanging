@@ -2,11 +2,6 @@ import App from "./App.vue";
 
 describe("<App />", () => {
     it("renders page", () => {
-        // cy.on("uncaught:exception", (err) => {
-        //     console.log("errrrrrrrrr", err);
-        //     // returning false here prevents Cypress from failing the test
-        //     return false;
-        // });
         cy.mount(App);
         cy.get('input').click()
        
